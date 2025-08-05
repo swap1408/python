@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AMI_ID = 'ami-05b42df31a2765e57'          // ✅ Use your region's AMI
-        INSTANCE_TYPE = 't2.micro'
+        INSTANCE_TYPE = 't3.micro'
         KEY_NAME = 'mumbai'                       // ✅ Your EC2 key pair name
         SUBNET_ID = 'subnet-01fd350451bebd0ef'             // ✅ Private subnet ID
         SECURITY_GROUP_ID = 'sg-0ed03c6345f3d8f19'         // ✅ Security group allowing SSH
